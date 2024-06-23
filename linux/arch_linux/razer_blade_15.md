@@ -3,12 +3,12 @@
 
 ## Hardware
 
-**Full device name**: Blade 15 Base Model (Early 2021) - RZ09-0369 (6.04)
-**CPU**: Intel(R) Core(TM) i7-10750H (12) @ 5.00 GHz
-**GPU**: NVIDIA GeForce RTX 3060 Laptop GPU
-**RAM**: 16GB DDR4
-**Storage**: 512GB NVMe SSD
-**Screen**: 15.6" 1920x1080 144Hz
+- **Full device name**: Blade 15 Base Model (Early 2021) - RZ09-0369 (6.04)
+- **CPU**: Intel(R) Core(TM) i7-10750H (12) @ 5.00 GHz
+- **GPU**: NVIDIA GeForce RTX 3060 Laptop GPU
+- **RAM**: 16GB DDR4
+- **Storage**: 512GB NVMe SSD
+- **Screen**: 15.6" 1920x1080 144Hz
 
 ## BIOS
 
@@ -20,35 +20,35 @@ To start make sure you have set the following BIOS settings:
 
 #### CPU Configuration
 
-**Software Guard Extensions (SGX)**: Disabled
-**Intel (VMX) Virtualization Technology**: Enabled
-**Hyper-Threading**: Enabled
+- **Software Guard Extensions (SGX)**: Disabled
+- **Intel (VMX) Virtualization Technology**: Enabled
+- **Hyper-Threading**: Enabled
 
 #### Power & Performance
 
 ##### CPU - Power Management Control
 
-**Intel(R) SpeedStep(tm)**: Enabled
-**Turbo Mode**: Enabled
+- **Intel(R) SpeedStep(tm)**: Enabled
+- **Turbo Mode**: Enabled
 
 ##### Thunderbolt Configuration
 
-**Discrete Thunderbolt(TM) Configuration**: Enabled
-**Security Level**: No Security
+- **Discrete Thunderbolt(TM) Configuration**: Enabled
+- **Security Level**: No Security
 
 ##### Trusted Computing
 
 In order for windows 11 to still work and boot keep TPM enabled.
 
-**Security Device Support**: Enabled
+- **Security Device Support**: Enabled
 
 #### USB Configuration
 
-**Legacy USB Support**: Enabled
+- **Legacy USB Support**: Enabled
 
 #### Network Stack Configuration
 
-**Network Stack**: Disabled
+- **Network Stack**: Disabled
 
 #### NVMe Configuration
 
@@ -56,31 +56,31 @@ No settings to change or ensure are set.
 
 ### Chipset
 
-**GPU Mode**: NVIDIA(R) Optimus(TM) Graphics
-**Enable USB Charge Function**: Enabled
+- **GPU Mode**: NVIDIA(R) Optimus(TM) Graphics
+- **Enable USB Charge Function**: Enabled
 
 #### SATA And RST Configuration
 
-**SATA Controller(s)**: Enabled
-**SATA Mode Selection**: AHCI
+- **SATA Controller(s)**: Enabled
+- **SATA Mode Selection**: AHCI
 
 ### Security
 
 #### Secure Boot
 
-**Secure Boot**: Disabled
+- **Secure Boot**: Disabled
 
 ### Boot
 
-**Bootup NumLock State**: Off
+- **Bootup NumLock State**: Off
 
 #### CSM Configuration
 
-**CSM Support**: Enabled
-**Boot option filter**: UEFI and Legacy
-**Network**: Do not launch
-**Storage**: UEFI
-**Other PCI devices**: UEFI
+- **CSM Support**: Enabled
+- **Boot option filter**: UEFI and Legacy
+- **Network**: Do not launch
+- **Storage**: UEFI
+- **Other PCI devices**: UEFI
 
 ## Installation
 

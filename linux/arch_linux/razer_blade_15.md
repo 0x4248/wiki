@@ -12,7 +12,7 @@
 
 ## BIOS
 
-The known BIOS version is 1.0.
+The known working BIOS version is 1.0.
 
 To start make sure you have set the following BIOS settings:
 

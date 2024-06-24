@@ -92,7 +92,7 @@ Use Balena Etcher to write the ISO to a USB stick and plug it in to the left USB
 
 ### Installation
 
-Go trough the installation process as normal but use `EFISTUB` as the bootloader. When prompted to install optinal packages install `linux-firmware` and `linux-headers` it is important to click `yes`. This will install the necessary drivers for the GPU.
+Go trough the installation process as normal but use `EFISTUB` as the bootloader. When prompted to install optinal packages install `linux-firmware` and `linux-headers` it is important to click `yes`.
 
 ### Post-installation
 

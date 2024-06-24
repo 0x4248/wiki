@@ -206,6 +206,15 @@ sudo pacman -S wpa_supplicant
 sudo pacman -S netctl dialog dhcpcd dhclient
 ```
 
+### Network issues after standby
+
+After being on standby the laptop can sometimes have issues connecting to the internet on Wi-Fi. This is becuse the `iwlwifi` module crashes and enters a loop of starting and crashing. To fix this simply reload the kernel module.
+
+```
+sudo modprobe -r iwlmvm iwlwifi
+sudo modprobe iwlmvm iwlwifi
+```
+
 ### Hanging on shutdown
 
 Sometimes the system can get stuck on shutdown with this message:

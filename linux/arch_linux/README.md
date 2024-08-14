@@ -4,4 +4,4 @@ Arch linux is a operating system that is known for its simplicity and customizab
 
 ## Hardware
 
-- [Razer Blade 15](linux/arch_linux/razer_blade_15.md)
+- [Razer Blade 15](razer_blade_15)

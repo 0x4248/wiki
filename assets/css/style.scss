@@ -12,6 +12,149 @@
     --text-alt-colour-darker: #3976bc;
 }
 
+.highlight .cm {
+  color: var(--light-gray);
+}
+.highlight .cp {
+  color: var(--light-gray);
+}
+.highlight .c1 {
+  color: var(--light-gray);
+}
+.highlight .cs {
+  color: var(--light-gray);
+}
+.highlight .c,
+.highlight .cd {
+  color: var(--light-gray);
+}
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+.highlight .gd {
+  color: var(--text-colour);
+  background-color: #ffdddd;
+}
+.highlight .ge {
+  color: var(--text-colour);
+}
+.highlight .gr {
+  color: #aa0000;
+}
+.highlight .gh {
+  color: var(--light-gray);
+}
+.highlight .gi {
+  color: var(--text-colour);
+  background-color: #ddffdd;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+  color: var(--text-colour);
+}
+.highlight .gu {
+  color: var(--light-gray);
+}
+.highlight .gt {
+  color: #aa0000;
+}
+.highlight .kc,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp,
+.highlight .kr {
+  color: var(--text-colour);
+}
+.highlight .kt {
+  color: #445588;
+}
+.highlight .k,
+.highlight .kv {
+  color: var(--text-colour);
+}
+.highlight .mf,
+.highlight .mh,
+.highlight .il,
+.highlight .mi,
+.highlight .mo,
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
+  color: #009999;
+}
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .s1,
+.highlight .s {
+  color: #d14;
+}
+.highlight .sr {
+  color: #009926;
+}
+.highlight .ss {
+  color: #990073;
+}
+.highlight .na {
+  color: #008080;
+}
+.highlight .bp {
+  color: var(--light-gray);
+}
+.highlight .nb {
+  color: #0086b3;
+}
+.highlight .nc {
+  color: #445588;
+}
+.highlight .no {
+  color: #008080;
+}
+.highlight .nd {
+  color: #3c5d5d;
+}
+.highlight .ni {
+  color: #800080;
+}
+.highlight .ne,
+.highlight .nf,
+.highlight .nl {
+  color: #990000;
+}
+.highlight .nn {
+  color: #555555;
+}
+.highlight .nt {
+  color: #000080;
+}
+.highlight .vc,
+.highlight .vg,
+.highlight .vi,
+.highlight .nv {
+  color: #008080;
+}
+.highlight .ow,
+.highlight .o {
+  color: var(--text-colour);
+}
+.highlight .w {
+  color: #bbbbbb;
+}
+.highlight {
+  background-color: var(--background-colour-light);
+}
+
 body {
     background-color: var(--background-colour-dark);
     color: var(--light-gray);

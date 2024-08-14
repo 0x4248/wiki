@@ -4,5 +4,5 @@ Linux is a family of open-source Unix-like operating systems based on the [Linux
 
 ## Distros
 
-- [Arch Linux](linux/arch_linux/README.md)
-- [Debian](linux/debian/README.md)
+- [Arch Linux](arch_linux/README.md)
+- [Debian](debian/README.md)

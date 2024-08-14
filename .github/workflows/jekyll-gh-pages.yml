@@ -28,8 +28,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "gem 'jekyll'" >> Gemfile
-          echo "gem 'just-the-docs'" >> Gemfile
           bundle install
 
       - name: Setup Pages

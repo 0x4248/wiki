@@ -6,3 +6,6 @@ Linux is a family of open-source Unix-like operating systems based on the [Linux
 
 - [Arch Linux](arch_linux/)
 - [Debian](debian/)
+
+## Software
+Linux has a wide variety of [software](software/) available for it.

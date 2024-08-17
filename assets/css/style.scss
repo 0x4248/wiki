@@ -10,7 +10,30 @@
     --text-colour: #f2f2f2;
     --text-alt-colour: #4a95ec;
     --text-alt-colour-darker: #3976bc;
+    --dot-bg: var(--background-colour-dark);
+    --dot-color: #1b1b1b;
+    --dot-size: 2px;
+    --dot-space: 22px;
 }
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color: var(--text-colour);
+  background-color: var(--background-colour-dark);
+  background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color);     
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: var(--text-alt-colour);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 
 .highlight .cm {
   color: var(--light-gray);

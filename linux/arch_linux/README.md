@@ -9,3 +9,7 @@ Arch linux is a operating system that is known for its simplicity and customizab
 ## Software
 
 - [Yay](software/yay)
+
+## Quick fixes
+
+- [Dead network after suspend](quick_fixes/dead_network_after_suspend)

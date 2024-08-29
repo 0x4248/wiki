@@ -1,7 +1,9 @@
 # Pages
 - [linux](linux/)
 - [linux/kernel](linux/kernel)
+	- [linux/arch_linux](linux/arch_linux/)
+	- [linux/arch_linux/razer_blade_15](linux/arch_linux/razer_blade_15)
+		- [linux/arch_linux/quick_fixes/dead_network_after_suspend](linux/arch_linux/quick_fixes/dead_network_after_suspend)
+		- [linux/arch_linux/software/yay](linux/arch_linux/software/yay)
 	- [linux/software](linux/software/)
 		- [linux/software/iwd](linux/software/iwd/)
-	- [linux/arch_linux/razer_blade_15](linux/arch_linux/razer_blade_15)
-	- [linux/arch_linux](linux/arch_linux/)

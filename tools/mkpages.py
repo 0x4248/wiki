@@ -1,4 +1,4 @@
-root_folders = ['linux']
+root_folders = ['linux', 'radios']
 
 files = []
 titles = []

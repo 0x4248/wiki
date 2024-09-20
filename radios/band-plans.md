@@ -28,4 +28,4 @@ Band plans define how different radio frequency bands are meant to be used.
 - **CB** (Citizens Band) (26.965-27.405 MHz)
 - **FRS** (Family Radio Service) (462-467 MHz)
 - **GMRS** (General Mobile Radio Service) (462-467 MHz)
-- **PMR446** (Private Mobile Radio 446) (446.00625-446.19375 MHz) Please see [PMR446](radios/PMR446.md) for more details.
+- **PMR446** (Private Mobile Radio 446) (446.00625-446.19375 MHz) Please see [PMR446](PMR446.md) for more details.

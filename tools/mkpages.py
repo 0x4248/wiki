@@ -1,27 +1,24 @@
-root_folders = ['linux', 'radios']
+root_folders = ['linux', 'radios', 'programming']
 
-files = []
-titles = []
+
 
 import os
 
+pages_file = open('pages.md', 'w')
+pages_file.write('# Pages\n')
+
+
+pages_file.write('## Contents\n')
 for root_folder in root_folders:
+	pages_file.write('- [' + root_folder.capitalize() + '](#' + root_folder + ')\n')
+
+
+for root_folder in root_folders:
+	pages_file.write('## ' + root_folder.capitalize() + '\n')
 	for root, dirs, file in os.walk(root_folder):
 		for f in file:
 			if f.endswith('.md'):
 				if f == 'README.md':
-					files.append(os.path.join(root, f).replace('README.md', ''))
-					titles.append(os.path.join(root, f).replace('/README.md', ''))
+					pages_file.write('- [' + os.path.join(root, f).replace('README.md', '') + '](' + os.path.join(root, f).replace('README.md', '') + ')\n')
 				else:
-					files.append(os.path.join(root, f).replace('.md', ''))
-					titles.append(os.path.join(root, f).replace('.md', ''))
-
-with open('pages.md', 'w') as f:
-	f.write('# Pages\n')
-	for i in range(len(files)):
-		indents = files[i].count('/') - 1
-
-		for j in range(indents):
-			f.write('\t')
-		
-		f.write('- [' + titles[i] + '](' + files[i] + ')\n')
+					pages_file.write('- [' + os.path.join(root, f).replace('.md', '') + '](' + os.path.join(root, f).replace('.md', '') + ')\n')

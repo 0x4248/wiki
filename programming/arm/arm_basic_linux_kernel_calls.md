@@ -1,4 +1,4 @@
-## Basic linux kernel calls
+# Basic linux kernel calls (ARM)
 
 - `read` - Reads data from a file descriptor.
 - `write` - Writes data to a file descriptor.

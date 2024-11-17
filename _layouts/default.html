@@ -10,6 +10,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 {% seo %}
     <link rel="stylesheet" href="https://0x4248.dev/4248_github_pages_theme/assets/css/style.css">
+    <style>
+      .header-number{
+        font-style: italic;
+        margin-right: 0.5ex;
+        color: #4a95ec;
+        font-size: large;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -58,19 +66,26 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-      var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-      for (var i = 0; i < headings.length; i++) {
-        var heading = headings[i];
-        var text = heading.innerText;
-        var match = text.match(/^(\d+\.\d+)\s/);
-        if (match) {
-          var point = document.createElement('span');
-          point.className = 'point';
-          point.innerText = match[1];
-          heading.innerHTML = heading.innerHTML.replace(/^(\d+\.\d+)\s/, '');
-          heading.insertBefore(point, heading.firstChild);
+      var headers = document.querySelectorAll('h2, h3, h4, h5, h6');
+      var last = [0, 0, 0, 0, 0];
+
+      for (var i = 0; i < headers.length; i++) {
+        var header = headers[i];
+        var level = parseInt(header.tagName[1]); 
+
+        last[level - 2]++;
+        
+        for (var j = level - 1; j < last.length; j++) {
+          last[j] = 0;
         }
+
+        var number = last.slice(0, level - 1).join('.');
+
+        var span = `<span class="header-number">${number}</span> `;
+
+        header.innerHTML = span + header.innerHTML;
       }
+
     </script>
   </body>
 </html>

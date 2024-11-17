@@ -5,6 +5,7 @@
 - [Linux](#linux)
 - [Radios](#radios)
 - [Programming](#programming)
+- [Other](#other)
 
 ## Linux
 - [linux/](linux/)
@@ -27,4 +28,7 @@
 - [programming/arm/arm_basic_linux_kernel_calls](programming/arm/arm_basic_linux_kernel_calls)
 - [programming/arm/hello_world_arm_linux](programming/arm/hello_world_arm_linux)
 - [programming/c/stdio](programming/c/stdio)
+
+## Other
+- [other/ISO/patching_an_ISO](other/ISO/patching_an_ISO)
 

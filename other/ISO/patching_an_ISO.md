@@ -9,7 +9,7 @@ In this guide I will show you how to patch an ISO file. Since ISO files are not 
 
 ### Installing `genisoimage`
 
-#### Debian-based systems
+#### Debian-based systems
 
 To install `genisoimage` on debian-based systems, run the following command:
 
@@ -17,7 +17,7 @@ To install `genisoimage` on debian-based systems, run the following command:
 sudo apt-get install genisoimage
 ```
 
-#### Arch-based systems
+#### Arch-based systems
 
 To install `genisoimage` on arch-based systems, run the following command:
 
@@ -25,7 +25,7 @@ To install `genisoimage` on arch-based systems, run the following command:
 sudo pacman -S cdrtools
 ```
 
-#### Fedora-based systems
+#### Fedora-based systems
 
 To install `genisoimage` on fedora-based systems, run the following command:
 

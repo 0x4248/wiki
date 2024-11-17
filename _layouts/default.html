@@ -57,5 +57,20 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+      for (var i = 0; i < headings.length; i++) {
+        var heading = headings[i];
+        var text = heading.innerText;
+        var match = text.match(/^(\d+\.\d+)\s/);
+        if (match) {
+          var point = document.createElement('span');
+          point.className = 'point';
+          point.innerText = match[1];
+          heading.innerHTML = heading.innerHTML.replace(/^(\d+\.\d+)\s/, '');
+          heading.insertBefore(point, heading.firstChild);
+        }
+      }
+    </script>
   </body>
 </html>

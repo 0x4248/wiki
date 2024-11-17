@@ -2,10 +2,15 @@
 <!--Run: python tools/mkpages.py to regenerate this file-->
 # Pages
 ## Contents
+- [Windows](#windows)
 - [Linux](#linux)
 - [Radios](#radios)
 - [Programming](#programming)
 - [Other](#other)
+
+## Windows
+- [windows/](windows/)
+- [windows/windows_10/installing_windows_10](windows/windows_10/installing_windows_10)
 
 ## Linux
 - [linux/](linux/)

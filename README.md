@@ -4,6 +4,7 @@ A collection of guides and tutorials for various topics that I have written.
 
 ## Main pages
 For all pages, see the [pages](pages.md) directory.
+- [Windows](windows/README.md)
 - [Linux](linux/README.md)
 - [Radios](radios/README.md)
 - [programming](programming/README.md)

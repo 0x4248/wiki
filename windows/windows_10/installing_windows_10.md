@@ -26,3 +26,45 @@ Select your language, time and currency format, and keyboard or input method. Cl
 ![Language and keyboard](img/Language_and_keyboard.png)
 
 ![Language next button](img/Language_next_button.png)
+
+### Activating windows
+
+Since windows is not a free you will need to activate it using a licence key. If you have a licence key enter it here, if not you can skip this step and activate windows later.
+
+![Windows setup licence key](img/Setup_key.png)
+
+### Select windows edition
+
+There are multiple editions of windows 10, select the one that you want to install.
+
+![Windows Edition type](img/Windows_edition_type.png)
+
+#### Windows 10 Home
+
+Windows 10 Home is the basic edition of windows 10. It is suitable for most users.
+
+#### Windows 10 Pro
+
+Windows 10 Pro is the professional edition of windows 10. It has more features than windows 10 home.
+
+#### Windows 10 Education
+
+Windows 10 Education is designed for students and teachers. It has the same features as windows 10 pro.
+
+#### Windows 10 Enterprise
+
+Windows 10 pro but designed for large organizations.
+
+#### Windows version N
+
+Windows version N is the same as the but stands for "No Media Player".
+
+### Choose a disk to install to
+
+This screen shows all the disks that are connected to your computer. Select the disk that you want to install windows to and click "Next".
+
+![Windows setup select drive](img/Windows_setup_select_drive.png)
+
+### Installing windows
+
+The next screen will show the progress of the installation. This can take a while depending on the speed of your computer. After this screen you should see the windows logo and a spinning circle. After that there will be a setup screen which will let you configure your windows settings.

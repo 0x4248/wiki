@@ -6,9 +6,9 @@ The Baofeng UV-5RM Plus is a dual-band handheld transceiver that is part of the 
 
 ![All parts](images/UV-5RM_Plus_all_parts.jpeg)
 ![Front](images/UV-5RM_Plus_front.jpeg)
-![Back](images/UV-5RM_Plus_back.jpeg)
 ![Left](images/UV-5RM_Plus_left.jpeg)
 ![Right](images/UV-5RM_Plus_right.jpeg)
+![Screws](images/UV-5RM_Plus_screws.jpeg)
 
 ## Specifications
 

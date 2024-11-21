@@ -4,6 +4,7 @@
 ## Contents
 - [Windows](#windows)
 - [Linux](#linux)
+- [Hardware](#Hardware)
 - [Radios](#radios)
 - [Programming](#programming)
 - [Other](#other)
@@ -22,6 +23,10 @@
 - [linux/arch_linux/](linux/arch_linux/)
 - [linux/arch_linux/software/yay](linux/arch_linux/software/yay)
 - [linux/arch_linux/quick_fixes/dead_network_after_suspend](linux/arch_linux/quick_fixes/dead_network_after_suspend)
+
+## Hardware
+- [Hardware/](Hardware/)
+- [Hardware/radios/UV-5RM_Plus](Hardware/radios/UV-5RM_Plus)
 
 ## Radios
 - [radios/](radios/)

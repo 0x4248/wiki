@@ -1,4 +1,4 @@
-root_folders = ['windows', 'linux', 'Hardware', 'radios', 'programming', 'other']
+root_folders = ['windows', 'linux', 'hardware', 'radios', 'programming', 'other']
 
 
 

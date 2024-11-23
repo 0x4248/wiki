@@ -26,6 +26,7 @@
 
 ## Hardware
 - [hardware/](hardware/)
+- [hardware/computers/TOSHIBA_C660/](hardware/computers/TOSHIBA_C660/)
 - [hardware/radios/UV-5RM_Plus](hardware/radios/UV-5RM_Plus)
 
 ## Radios

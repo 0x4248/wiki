@@ -19,8 +19,8 @@
 - [linux/software/](linux/software/)
 - [linux/software/iwd/](linux/software/iwd/)
 - [linux/software/tar/](linux/software/tar/)
-- [linux/arch_linux/razer_blade_15](linux/arch_linux/razer_blade_15)
 - [linux/arch_linux/](linux/arch_linux/)
+- [linux/arch_linux/razer_blade_15](linux/arch_linux/razer_blade_15)
 - [linux/arch_linux/software/yay](linux/arch_linux/software/yay)
 - [linux/arch_linux/quick_fixes/dead_network_after_suspend](linux/arch_linux/quick_fixes/dead_network_after_suspend)
 
@@ -28,11 +28,12 @@
 - [hardware/](hardware/)
 - [hardware/computers/TOSHIBA_C660/](hardware/computers/TOSHIBA_C660/)
 - [hardware/radios/UV-5RM_Plus](hardware/radios/UV-5RM_Plus)
+- [hardware/HID/Keyboards/Redragon-K585/](hardware/HID/Keyboards/Redragon-K585/)
 
 ## Radios
+- [radios/PMR446](radios/PMR446)
 - [radios/](radios/)
 - [radios/band-plans](radios/band-plans)
-- [radios/PMR446](radios/PMR446)
 
 ## Programming
 - [programming/](programming/)
